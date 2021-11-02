@@ -1,0 +1,27 @@
+/*this is base css*/
+
+nav{
+    background-color:white ;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-collapse{
+   position: absolute;
+   right: 0;
+}
+.nav-collapse a{
+     color:black ;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    margin: 0 0.5em;
+    border: 0.1em solid white;
+    padding: o.2em;
+    transition: ease-out 1s;
+}
+.nav-collapse a:hover{
+    color:yellow;
+}
